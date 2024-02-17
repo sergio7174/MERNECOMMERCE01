@@ -129,6 +129,6 @@ This project was created using the following technologies.
 - Portfolio: 
 - Github: 
 - Sponsor: 
-- Linkedin:
+- Linkedin:https://www.linkedin.com/in/sergio-moncada-72589883/
 - Email: [sergiogmoncada@yahoo.com](mailto:sergiogmoncada@yahoo.com)
 
