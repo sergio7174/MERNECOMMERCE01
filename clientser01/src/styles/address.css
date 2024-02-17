@@ -1,0 +1,45 @@
+/* .outerMostAddressDisplayContainer{
+    background-color: brown;
+} */
+
+/* .addressDisplayContainer{
+    background-color: aqua;  
+} */
+
+.addressSingleDiv{
+    /* background-color: pink; */
+    margin-bottom: 26px;
+    padding: 0px 30px;
+}
+
+.addTypeAndDeleteIconDiv{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteIcon{
+    font-size: 26px;
+    /* background-color: red; */
+    color: rgba(141, 7, 7, 0.81);
+    cursor: pointer;
+}
+
+.addressSingleDiv .addType{
+    color: blue;
+    margin-bottom: 12px;
+}
+
+.addressSingleDiv>p{
+    /* background-color: green; */
+    margin-bottom: 0px;
+}
+
+/*************** CartPage Address CSS ****************/
+.tickIcon{
+    cursor: pointer;
+}
+
+.tickIcon:hover{
+    color: green;
+}

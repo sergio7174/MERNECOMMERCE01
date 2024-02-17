@@ -1,0 +1,59 @@
+.registerSection{
+    /* background-color: aqua; */
+    min-height: 80vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 !important; 
+    /*background-image: linear-gradient(to right, rgba(255, 208, 120, 0.565), pink);*/
+    background:"linear-gradient(to right top,#9f9696,#545bc9";
+}
+
+.OuterRegisterFormContainer{
+    /* background-color: antiquewhite; */
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 26px;
+    background-color: rgb(247, 251, 255);
+    /* box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3); */
+    box-shadow: 1.2px 1.2px 2px 2px silver;;
+    border-radius: 6px;
+    margin: 30px;
+}
+
+.OuterRegisterFormContainer Input{
+    border: none;
+    border-bottom: 1.6px solid gray;
+    outline: none !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.OuterRegisterFormContainer .pswd{
+    border: none;
+    border-bottom: 1.6px solid gray;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.submitBtnFormItem{
+    /* background-color: blue; */
+    margin-bottom: 0px;
+}
+
+.submitBtnSection{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .submitBtnSection .submitBtn{
+    background-color: aqua;
+} */
+
+/* .submitBtnSection a{
+
+} */

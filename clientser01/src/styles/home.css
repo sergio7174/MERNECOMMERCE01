@@ -1,0 +1,207 @@
+
+.Home{
+    display: flex;
+    min-height: 80vh;
+}
+
+.HomeForAdmin{
+    display: flex;
+    min-height: 80vh;
+    background-color: rgba(9, 9, 96, 0.823);
+   color: #fff;
+}
+
+.homeSideContainer{
+    /* background-color: blueviolet;          */
+    padding: 20px;
+    width: 35%;
+}
+
+/* .homeSideContainerForAdmin{
+    color: #fff !important;
+} */
+
+.homeFilterHeading{
+    margin-top: 1em;
+    font-size: 1em;
+    margin-bottom: 12px;
+    margin-left: 2em;
+}
+
+.homeFilterByCatContainer{
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    background-color: rgb(165, 170, 170);
+    border: 1em solid rgb(165, 170, 170);
+    border-radius: 5px;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.homeFilterByCatContainerChechbox{
+    /* background-color: pink; */
+    margin-left: 0px !important;
+}
+
+.homeFilterByCatContainerChechboxForAdmin{
+    color: #fff;
+    margin-left: 0px !important;
+}
+
+.homeFilterByPriceHeading{
+    margin-top: 22px;
+}
+
+/* .homeFilterByCatContainerRadioDiv{
+    background-color: aqua;
+} */
+
+/* .homeFilterByCatContainerRadio{
+    color: #fff;
+} */
+
+.homeFilterByCatContainerRadioForAdmin{
+    color: #fff;
+}
+
+.resetFiltersBtn{
+    /*padding: 16px 22px !important;*/
+    /*margin-top: 22px;*/
+    /*display: flex;*/
+    padding-bottom: 3vh !important;
+    align-items: center;
+    font-size: 22px;
+    font-size: 1.5vw;
+    font-size: 0.8em;
+    border: none;
+    margin-left: 2.6em;
+    min-width: 14.3vw;
+   
+    /* background-color: blueviolet; */
+}
+
+.resetFiltersBtn:hover{
+    color: #fff !important;
+}
+
+
+@media screen and (max-width : 1200px){
+    .homeSideContainer{
+        /* background-color: blueviolet; */
+        /* padding: 20px; */
+        width: 40%;
+    }
+}
+
+/* ***********homeMainContainer************** */
+
+.homeMainContainer{
+    /* background-color: burlywood; */
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.allProductsHeading{
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 16px 0px;
+    font-style: 26px;
+}
+
+.allProductsBigContainer{
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 2rem;
+}
+
+.card{
+    /* background-color: blue; */
+    margin: 0rem 1.5rem 2rem 0rem;
+    box-shadow: 1px 1px 2px 2px rgb(203, 213, 222);
+}
+
+.cardImage{
+    /* background-color: aquamarine; */
+    height: 200px;
+}
+
+.card-body{
+    /* background-color: blueviolet; */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.card-body h4{
+    /* background-color: green; */
+    margin: 0 !important;
+    /* padding: 0 !important; */
+    padding: 12px !important;
+}
+
+.productDescDiv{
+    /* background-color: palevioletred; */
+    padding: 0px 12px 0px 12px;
+}
+
+/* .productDescDiv .productDesc{
+    background-color: brown;
+} */
+
+.productPriceDiv{
+    /* background-color: blue; */
+    padding: 12px 12px 0px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productOriginalPrice{
+    /* background-color: orange; */
+    color: grey;
+    font-size: 16px !important;
+}
+
+.productPrice{
+    /* background-color: yellowgreen; */
+    color: green;
+    font-size: 22px !important;
+}
+
+.card-body p{
+    /* background-color: gold; */
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px;
+    /* padding: 12px !important; */
+}
+
+.productQuantity{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12px 0px 12px;
+    align-items: center;
+}
+
+.wishListHeartSymbol{
+    cursor: pointer;
+    font-size: 25px !important;
+    color: red;
+}
+
+.moreDetailsandAddToCartBtnContainer{
+    /* background-color: greenyellow; */
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body button{
+    /* background-color: violet; */
+    margin: 3px;   
+}

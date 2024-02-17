@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* font-family: 'Alkatra', cursive;
+font-family: 'Poppins', sans-serif; */
+
+/* header navbar section */
+
+.navbar{
+  box-shadow: 0px 8px 6px -6px gray;
+  --webkit-box-shadow: 0px 8px 6px -6px gray;
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.active{
+  border-bottom: 1px solid gray;
+}
+
+.headerCartLi{
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.searchInput{
+  margin-right: 2rem;
+  /* background-color: #000 !important; */
+
+}
+
+.adminDropDown{
+  /* background-color: aqua; */
+  margin-right: 60px;
+  letter-spacing: 0.8px;
+}
+
+/********************* footer */
+.footer{
+  text-align: center;
+  --webkit-background: linear-gradient(to right, #363434, #000);
+  background: linear-gradient(to right, #363434, #000);
+  color: #fff;
+  padding: 16px;
+  margin: 0 !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer a{
+  text-decoration: none;
+  padding: 8px;
+  color: #fff;
+  /* height: 100%; */
+}
+
+.footer a:hover{
+  color: rgb(183, 199, 214);
+  border-bottom: 1px solid rgb(183, 199, 214);
+}
+
+/********************** Page not found */
+
+.Pagenotfound{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 26rem;
+}
+
+.Pagenotfound h1{
+  font-size: 120px;
+} 
+
+.Pagenotfound p{
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.Pagenotfound button{
+  padding: 3px 6px;
+  cursor: pointer;
+}
+
+.Pagenotfound button:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+/* **************************contact *******************/
+
+.outerSection{
+  /* background-color: aqua; */
+  /* height: 70vh; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  margin: 56px;
+}
+
+.Contact{
+  /* background-color: red; */
+  display: flex;
+}
+
+.imageSection{
+  /* background-color: #363434; */
+  width: 50%;
+}
+
+.imageSection img{
+  /* background-color: blue; */
+  height: 380px;
+  width: 100%;
+}
+
+.contentSection{
+  /* background-color: chartreuse; */
+  width: 50%;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+}
+
+.contentSection h2{
+  /* background-color: blueviolet; */
+  background-color: #363434;
+  margin-bottom: 26px;
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.contentSection p{
+  /* background-color: cadetblue; */
+  font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .Contact{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageSection{
+    width: 90%;
+  }
+
+  .contentSection{
+    width: 90%;
+  }
+}
+
+
+/* *******************about ********** */
+
+.aboutContentSection{
+  /* background-color: red; */
+  padding: 0px 2rem;
+  line-height: 26px;
+}
+
+/* .AboutImageSection{
+  background-color: bisque !important;
+} */
+
+.AboutImageSectionImage{
+  /* background-color: aqua !important; */
+  /* animation: updown ; */
+  animation: updown 2s ease-in-out infinite;
+}
+
+@keyframes updown{
+  0% {
+    transform: translateY(0px);
+  }
+  10%{
+    transform: translateY(-6px);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  40% {
+    transform: translateY(-6px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(6px);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+  90% {
+    transform: translateY(6px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/********** adminDashboard */
+
+.container-fluid{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.div_prod {
+  width: 100%;
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin_prod_img{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.ProductDetailImageDiv{
+  display: flex;
+}
+
+.imagesDiv{
+  width: 100px;
+  margin-right: 10px;
+}
+
+.detail_prod_img{
+  width: 80%;
+}
+
+.active_img{
+  filter: grayscale();
+  cursor: default;
+}
+
+.singlePhoDiv{
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/*********** Products.js classes....productLink */
+
+.productListContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cardContainer{
+  min-height: 300px;
+}
+
+.productListContainer img{
+  height: 200px;
+}
+
+.productLink{
+  text-decoration: none;
+}
+
+.productsNameAndDescDiv{
+  /* background-color: aqua; */
+  padding: 10px !important;
+  /* margin: 0 !important; */
+}
+
+.productsNameAndDescDiv h5{
+  /* background-color: brown; */
+  padding: 8px  !important;
+  margin: 0 !important;
+}
+
+.productsNameAndDescDiv .productsNameAndDescDivPara{
+  /* background-color: green; */
+  padding: 0px 8px 0px 8px !important;
+  /* margin: 0 !important; */
+}
+/*********** categoriesOuterContainer ********/
+
+.categoriesOuterContainer{
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.categoriesDiv{
+  /* background-color: bisque; */
+  padding: 26px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px 2px rgb(203, 213, 222);
+}
+
+.categoriesAllCategories{
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.categoriesParticularDivCon{
+  /* background-color: brown; */
+  margin: 16px;
+}
+
+/******* adminMenu ********/
+.adminMenuDiv h5{
+  margin-bottom: 22px;
+}
+
+.adminMenuNavLink{
+  font-size: 16px;
+}
+
+
+/************ Product Deatil********** */
+
+.ProductDetail{
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  padding: 50px;
+}
+
+/* .ProductDetailImageDiv{
+  background-color: blue;
+} */
+
+.ProductDetailImageDiv img{
+  /* background-color: antiquewhite; */
+  height: 400px;
+}
+
+.productDetailContentDiv{
+  /* background-color: gold; */
+  min-height: 400px;
+  box-shadow: 1px 1px 2px 2px rgb(203, 213, 222);
+  padding: 16px;
+  margin-left: 36px;
+}
+
+.productDetailContentDiv button{
+  margin-top: 6px;
+}
+
+@media screen and (max-width : 800px) {
+  .ProductDetail{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productDetailContentDiv{
+    margin-top: 26px;
+    min-height: fit-content;
+  }
+}
+
+/* **********CategoryWiseProducts *********/
+
+/* .CategoryWiseProducts{
+  background-color: purple;
+} */
+
+/* .allProductsBigContainer{
+  background-color: brown;
+} */
+
+.secondAllProductsBigContainer{
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* *****wishlist page************* */
+
+.remove_wish_btn {
+  margin-left: 10px;
+}
+
+.no_product_here{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px !important;
+}
+
+
+/**************** admin *****************/
+
+/********** createCategory ka css *************/
+
+.mainAdminDashboardOfCreateCategory{
+  /* background-color: aqua; */
+  background-color: #fff;
+  padding: 0px 12px 16px 12px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px 1px rgb(233, 224, 224);
+  margin: 26px 6px 26px 6px;
+}
+
+.mainAdminDashboardOfCreateCategory h4{
+  /* background-color: #000; */
+  color: #000;
+  padding-top: 16px;
+}
+
+.sideAdminDashboard{
+  /* margin-bottom: 10px !important; */
+  padding-bottom: 2px;
+}
+
+/********** createProduct ka css *************/
+
+
+
+.labelClass{
+  /* color: #000; */
+  color: #0B5ED7;
+  font-size: 16px;
+  margin-left: 6px;
+  /* background-color: aqua; */
+}

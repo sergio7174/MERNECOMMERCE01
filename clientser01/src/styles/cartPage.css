@@ -1,0 +1,56 @@
+/* .CartPage{
+    background-color: aqua;
+} */
+
+.CartPageMainContainer{
+    /* background-color: green; */
+    margin-top: 16px;
+}
+
+.secondCartPageMainContainer{
+    /* background-color: purple; */
+    margin-bottom: 26px;
+}
+
+/* .CartPageMainContainer>div{
+    margin-bottom: 26px;
+    background-color: red;
+} */
+
+.CartPageMainCardContainer{
+    /* background-color: brown; */
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* 
+.cartPageImageContainer{
+    background-color: blueviolet;
+} */
+
+.cartPageImageContainer img{
+    min-height: 160px;
+}
+
+.CartPageMainCardContainer > h4, h6{
+    /* background-color: aqua; */
+    margin: 4px;
+    padding: 0;
+    /* font-size: 22px; */
+}
+
+.CartPageMainCardContainer button{
+    margin-top: 6px;
+    width: 150px;
+}
+
+.CartPageMainInnerContainer{
+    /* background-color: yellow; */
+    /* margin: 0px 36px 36px 0px; */
+    padding: 30px;
+    margin-bottom: 36px !important;
+}

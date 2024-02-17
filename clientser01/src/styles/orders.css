@@ -1,0 +1,46 @@
+.orders_container {
+    /* background-color: gray; */
+  }
+  
+  .single_order {
+    /* background-color: aqua; */
+    /* margin: 26px; */
+    margin: 0px 26px 26px 0px;
+    box-shadow: 1px 1px 1.4px 1.4px gainsboro;
+    padding: 16px;
+  }
+  
+  /* .order_title {
+    background-color: gold;
+  } */
+  
+  .singleProCon {
+    /* background-color: green; */
+    margin: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .proImageCon{
+      margin-right: 16px;
+  }
+  
+  .proImageCon img {
+    /* background-color: violet; */
+    height: 120px;
+    width: 120px;
+  }
+  
+  .priceCon{
+      display: flex;
+      justify-content: space-between;
+      min-width: 150px;
+      max-width: 260px;
+  }
+  
+  .total{
+      /* background-color: aqua; */
+      max-width: 420px;
+      display: flex;
+      justify-content: end;
+  }
