@@ -50,6 +50,7 @@ JWT_SECRETKEY = "Sergio"
 
 $ npm install (to install server-side dependencies)
 $ npm start (to start the server) or with nodemon: nodemon server
+--- DONT FORGET TO CREATE IMAGES DIRECTORY TO SAVE MULTER IMAGES ---
 ```
 ![Status project](https://img.shields.io/badge/STATUS-Finished-GREEN?style=for-the-badge)
 
